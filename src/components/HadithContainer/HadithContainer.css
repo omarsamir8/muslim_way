@@ -1,0 +1,47 @@
+.HadithContainer h2{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.HadithContainer h2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.hadithes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.hadith1{
+    width: 32%;
+    padding: 20px ;
+    background-color: #2A3335;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.hadith1:hover{
+    transform: scale(1.1);
+}
+.pagination{
+    width: 30%;
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+}
+@media screen and (max-width: 500px) {
+    .hadith1{
+        width: 100%;
+    }
+    .pagination{
+        width: 100%;
+    }
+}

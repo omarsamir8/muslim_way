@@ -1,0 +1,89 @@
+/* تصميم الخلفية */
+.quran-details {
+    background-color: #2A3335;
+    color: #fff;
+    font-family: "Amiri", serif;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* اسم السورة */
+  .sura-name {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  /* عناصر التحكم */
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .play-audio,
+  .info-button {
+    background-color:#2A3335 ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .play-audio:hover,
+  .info-button:hover {
+    transform: scale(1.2);
+  }
+  
+/* تصميم الآيات */
+.ayahs-container {
+    display: inline;  
+    direction: rtl;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: -10px;
+    width: 80%;
+    margin: auto; 
+
+}
+  
+  .ayah {
+    direction: rtl;
+    width: auto;
+    display: inline;
+    align-items: center;
+    gap: 5px;
+   
+  }
+  
+  .ayah-number {
+    width: auto;
+    font-size: 1.3rem;
+    color: #f0c419;
+    margin-top: -5px;
+    display: inline;
+    
+  }
+  
+  .ayah p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #fff;
+    margin-top: 10px;
+    display: inline;
+  }
+  
+  /* تصميم استجابة */
+  @media (max-width: 768px) {
+    .ayah {
+      
+    }
+  }
+  

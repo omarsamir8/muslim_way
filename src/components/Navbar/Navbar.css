@@ -1,0 +1,29 @@
+.itemslist ul li a{
+font-size: 23px;
+font-weight: bold;
+transition: .3s;
+font-family: sans-serif;
+}
+.itemslist ul li a:hover{ 
+    transform: scale(1.1); /* تأثير التكبير عند المرور */
+    color: #ffeb3b; 
+    background: linear-gradient(45deg, green, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.navbar-brand {
+    font-size: 1.5rem; /* تعديل الحجم حسب رغبتك */
+    font-weight: bold;
+    background: linear-gradient(45deg, green, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+  /* أصفر فاتح */
+  }
+.itemslist ul{
+    gap:10px;
+}

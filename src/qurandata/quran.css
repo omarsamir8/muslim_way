@@ -1,0 +1,55 @@
+.quran h2{
+    text-align: center;
+    width: 200px;
+   border-bottom: 2px solid gray;
+   margin: auto;
+   transition: .3s;
+}
+.quran h2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.bor{
+    border-bottom: 2px solid gray;
+}
+.quransdisplay{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 50px;
+}
+.soura{
+    background-color: #2A3335;
+    cursor: pointer;
+    width: 32%;
+    padding: 20px 20px 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    transition: .3s;
+}
+.soura:hover{
+    transform: scale(1.1);
+}
+.soura p{
+    color: rgb(177, 176, 176);
+    
+}
+.numberofsoura{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .soura{
+        width: 100%;
+    }
+}

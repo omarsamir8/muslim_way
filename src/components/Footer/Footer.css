@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 223, 223);
+    padding-top: 20px;
+}
+.footer i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer p{
+    color: rgb(83, 82, 82);
+    font-weight: bold;
+}

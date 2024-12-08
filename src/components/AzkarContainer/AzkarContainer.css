@@ -1,0 +1,50 @@
+.AzkarContainer h2{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.AzkarContainer h2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.azkar-section h3{
+    text-align: center;
+    background-color: #2A3335;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 97%;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    font-family: cursive;
+}
+.azkar-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.azkar-item{
+    width: 32%;
+    padding: 20px ;
+    background-color: #2A3335;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.azkar-item:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 500px) {
+    .azkar-item{
+        width: 100%;
+    }
+}
