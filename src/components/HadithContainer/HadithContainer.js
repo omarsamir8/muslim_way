@@ -9,7 +9,7 @@ function HadithContainer(){
         const fetchData = async () => {
             try {
                 const response = await axios.get(
-                    `https://hadis-api-id.vercel.app/hadith/abu-dawud?page=${page}&limit=99`
+                    `https://hadis-api-id.vercel.app/hadith/abu-dawud?page=${page}&limit=25`
                 );
                 console.log(response.data);
                 sethadithcontainer(response.data.items)
@@ -34,7 +34,7 @@ function HadithContainer(){
             <div className="pagination" >
             <Pagination onChange={(e, value) => {
                               setpage(value); // هنا نقوم بتحديث الحالة بناءً على الرقم المختار
-                            }}  count={50} variant="outlined" color="secondary" />
+                            }}  count={200} variant="outlined" color="secondary" />
             </div>
             
         </div>
