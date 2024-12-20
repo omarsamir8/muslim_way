@@ -44,4 +44,10 @@ font-family: sans-serif;
     .aboutus img{
         height: 55vh !important;
     }
+    .aboutmuslim h2{
+        width: 70%;
+    }
+    .aboutmuslim p{
+        width: 70%;
+    }
 }
