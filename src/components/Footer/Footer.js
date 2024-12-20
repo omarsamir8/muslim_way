@@ -23,7 +23,7 @@ function Footer(){
     window.open("https://wa.me/201558849371", "_blank");
   }}  class="fa-brands fa-square-whatsapp"></i>
             </div>
-            <p>Copy Right By ©OMAR_SAMIR_IBRAHIM</p>
+            <p>Copy Right By ©Omar_Samir_Ibrahim</p>
         </div>
         </>
     )
