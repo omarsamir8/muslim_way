@@ -32,7 +32,7 @@ function Navbar(){
                     <a onClick={()=>{window.location.href="/"}}  class="nav-link active" aria-current="page" href="#2">{t('Home')}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#aboutus">{t('About Us')}</a>
+                    <a class="nav-link active" aria-current="page" href="#footer">{t('About Us')}</a>
                 </li>
                 <li class="nav-item">
                     <a onClick={()=>{window.location.href="/prayertimes"}} class="nav-link active" aria-current="page" href="#2">{t('Salat Times')}</a>

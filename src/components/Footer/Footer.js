@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer(){
     return(
         <>
-        <div className="footer">
+        <div id="footer" className="footer">
             <div style={{display:"flex",gap:"20px"}}> 
                 <i style={{color:"#0A5EB0"}}  onClick={() => {
                     window.open("https://www.facebook.com/profile.php?id=100046391707930&mibextid=ZbWKwL", "_blank");

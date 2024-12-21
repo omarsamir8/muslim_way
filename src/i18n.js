@@ -18,7 +18,7 @@ i18n
       },
     },
     lng: 'ar', // default language
-    fallbackLng: 'en', // fallback language
+    fallbackLng: 'ar', // fallback language
     interpolation: {
       escapeValue: false, // react already safes from xss
     },

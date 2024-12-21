@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import './HadithContainer.css'
 import axios from "axios";
-import { Pagination } from '@mui/material'
+import { Pagination } from '@mui/material';
+import { useLanguageContext } from "../../languageContext";
 function HadithContainer(){
     const[hadithcontainer,sethadithcontainer]=useState([]);
-    const[page,setpage]=useState("1")
+    const[page,setpage]=useState("1");
+    const { language, setlanguage } = useLanguageContext();
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -27,7 +29,7 @@ function HadithContainer(){
             <div className="hadithes">
                 {hadithcontainer.map((hadith)=>{
                     return (
-                        <div className="hadith1">{hadith.arab}</div>
+                        <div className="hadith1">{language==="ar"?hadith.arab:hadith.id}</div>
                     )
                 })}
             </div>
