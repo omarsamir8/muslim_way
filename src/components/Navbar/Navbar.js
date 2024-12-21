@@ -26,7 +26,7 @@ function Navbar(){
                 <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div style={{width:"80%"}} class="collapse navbar-collapse itemslist" id="navbarSupportedContent">
+            <div style={{width:"60%"}} class="collapse navbar-collapse itemslist" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a onClick={()=>{window.location.href="/"}}  class="nav-link active" aria-current="page" href="#2">{t('Home')}</a>
@@ -46,7 +46,7 @@ function Navbar(){
                 <li class="nav-item">
                     <a onClick={()=>{window.location.href="/azkarpage"}} class="nav-link active" aria-current="page" href="#2">{t('Azkar')}</a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#2">
                     <select onChange={(e) => {changeLanguage(e.target.value)}}style={{fontWeight:"bold",width:"120px"}} class="form-select" aria-label="Default select example">
                         <option hidden>Language</option>
@@ -54,7 +54,7 @@ function Navbar(){
                         <option value="en">English</option>
                     </select>
                     </a>
-                </li>            
+                </li>             */}
                 </ul>
             </div>
         </nav>
